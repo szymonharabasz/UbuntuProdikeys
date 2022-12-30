@@ -1,0 +1,12 @@
+The script setup_keyboard.py is run as a cron job at the start of the system
+To check the log:
+
+cat prodikeys.log
+
+To check fluidsynth errors:
+
+cat fluidsynth.error
+
+To check if everything is properly connected:
+
+aconnect -l
